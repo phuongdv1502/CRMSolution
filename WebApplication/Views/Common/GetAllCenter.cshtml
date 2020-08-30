@@ -1,0 +1,18 @@
+﻿@model List<Model.Ef.sys_center>
+
+<select id="@ViewBag.id" class="form-control" @(ViewBag.isDisable == true ? "Disabled='Disabled'" : "")>
+    <option value="0" disabled="" @(ViewBag.idSelected == 0 ? "selected='selected'" : "")>Chọn chi nhánh</option>
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+            <option value="@item.id" @(ViewBag.idSelected == item.id ? "selected='selected'" : "")>@(item.name)</option>
+        }
+        if (ViewBag.hasAll)
+        {
+            <option value="-1" @(ViewBag.idSelected == -1 ? "selected='selected'" : "")>Tất cả</option>
+        }
+    }
+</select>
+
+

@@ -1,0 +1,36 @@
+Start LogMessage
+-------------------------------
+TimeLog  : 28/08/2020 17:14:47
+Error: The conversion of a nvarchar data type to a datetime data type resulted in an out-of-range value.
+
+-------------------------------
+TimeLog  : 28/08/2020 17:16:26
+Error: The conversion of a nvarchar data type to a datetime data type resulted in an out-of-range value.
+
+-------------------------------
+TimeLog  : 28/08/2020 17:19:51
+Error: The conversion of a nvarchar data type to a datetime data type resulted in an out-of-range value.
+
+-------------------------------
+TimeLog  : 28/08/2020 17:33:27
+Error: Conversion failed when converting date and/or time from character string.
+
+-------------------------------
+TimeLog  : 28/08/2020 17:40:24
+Error: Object cannot be cast from DBNull to other types.
+
+-------------------------------
+TimeLog  : 28/08/2020 17:46:01
+Error: Object cannot be cast from DBNull to other types.
+
+-------------------------------
+TimeLog  : 28/08/2020 23:23:13
+Error: Index was outside the bounds of the array.
+
+-------------------------------
+TimeLog  : 28/08/2020 23:23:58
+Error: Index was outside the bounds of the array.
+
+-------------------------------
+TimeLog  : 28/08/2020 23:24:21
+Error: Index was outside the bounds of the array.

@@ -1,0 +1,66 @@
+﻿table{
+    width: 100%;
+}
+td.details-control {
+    background: url('/Images/details_open.png') no-repeat center center !important;
+    cursor: pointer;
+    background-color: rgb(234, 231, 208) !important;
+}
+
+tr.shown td.details-control {
+    background: url('/Images/details_close.png') no-repeat center center !important;
+    cursor: pointer;
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding: 5px 18px;
+    border-bottom: 1px solid #000;
+    background: #CCC;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 3px 3px;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 3px 3px;
+}
+
+table.dataTable tfoot th, table.dataTable tfoot td {
+    padding: 1px 1px;
+}
+
+input[type="text"].TableFieldFilterDate,
+input[type="text"].TableFieldFilterText,
+select.TableFieldFilterOption{
+    height: 28px;
+    width:100%;
+}
+
+table.dataTable {
+    margin-bottom: 0px !important;
+}
+
+#pageloader
+{
+    background: rgba( 255, 255, 255, 0.6 );
+    display: none;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 9999;
+}
+
+#pageloader img
+{
+    left: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+    position: absolute;
+    top: 50%;
+}
+
+table.dataTable tbody tr:hover  {
+    background-color: antiquewhite !important;
+}
+
